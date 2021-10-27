@@ -1,6 +1,8 @@
-# Getting Started
+# This app is an SAP Fiori Elements Tutorial
 
-Welcome to your new project.
+## Build an Application End-to-End Using CAP, Node.js and VS Code
+
+See the whole tutorial at: https://developers.sap.com/mission.btp-application-cap-e2e.html
 
 It contains these folders and files, following our recommended project layout:
 
