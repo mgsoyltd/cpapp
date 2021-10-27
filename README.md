@@ -14,6 +14,12 @@ It contains these folders and files, following our recommended project layout:
 | `package.json` | project metadata and configuration   |
 | `readme.md`    | this getting started guide           |
 
+## Install the dependecies
+
+```
+npm install
+```
+
 ## Run the app
 
 ```
