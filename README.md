@@ -27,3 +27,26 @@ cds watch
 ```
 
 And then go to: http://localhost:4004/risks/webapp/
+
+## Docker and Kyma
+
+See: https://sap-samples.github.io/cloud-cap-risk-management/Kyma/
+
+### Build Docker
+
+```
+cds build
+docker build -t cpapp .
+```
+
+### Run bash in a temp container
+
+```
+docker run --rm -i -t cpapp /bin/bash
+```
+
+### Run the cpapp in a temp container
+
+```
+docker run --rm -t -p 4004:4004 cpapp
+```
